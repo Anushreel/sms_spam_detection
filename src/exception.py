@@ -7,11 +7,11 @@ def error_message_detail(error_message:str, error_details:sys) -> str:
     return error_msg
 
 class CustomException(Exception):
-    def _init_(self, error_message:str, error_details:sys) -> None:
-        super()._init_(error_message)
+    def __init__(self, error_message:str, error_details:sys) -> None:
+        super().__init__(error_message)
         self.error_message:str = error_message_detail(error_message, error_details)
         
-    def _str_(self) -> str:
+    def __str__(self) -> str:
         return self.error_message
     
     
