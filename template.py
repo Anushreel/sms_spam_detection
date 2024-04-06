@@ -9,13 +9,13 @@ list_of_files = [
     
     'requirements.txt',                                 # requirements for projects 
       
-    'src/_init_.py',                                  # main source code folder
-    'src/components/_init_.py',                       # components
+    'src/__init__.py',                                  # main source code folder
+    'src/components/__init__.py',                       # components
     'src/components/data_ingestion.py',
     'src/components/data_transformation.py',
     'src/components/model_training.py',
     'src/components/model_evaluation.py',    
-    'src/pipeline/_init_.py',                         # pipelines
+    'src/pipeline/__init__.py',                         # pipelines
     'src/pipeline/training_pipeline.py',
     'src/pipeline/prediction_pipeline.py',
     'src/exception.py',                                 # custom exception handling

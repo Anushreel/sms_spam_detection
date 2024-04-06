@@ -10,4 +10,7 @@ flask
 dvc
 mlflow
 apache-airflow
+nltk
+wordcloud
+Counter
 -e .
